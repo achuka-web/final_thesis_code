@@ -1,3 +1,17 @@
+## Research question
+Do common candlestick patterns carry statistically significant information
+about future returns once fat tails, volatility clustering and transaction
+costs are taken into account?
+
+## Data
+XAU/USD and EUR/USD, hourly OHLC with tick volume, 2020–2026.
+
+## Key findings
+- Returns are non-normal with fat tails and volatility clustering (GARCH).
+- Most candlestick patterns showed no stable, statistically significant
+  effect on forward returns (h = 1, 3, 5).
+- After transaction costs, strategy performance dropped substantially.
+
 # Final Thesis Code
 
 This folder contains a clean, reproducible Python pipeline for the thesis analysis.
